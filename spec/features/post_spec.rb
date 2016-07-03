@@ -27,4 +27,6 @@ describe 'index page' do
     visit posts_path
     expect(page).to have_link(second_post.title, href: post_path(second_post))
   end
+
+  
 end
